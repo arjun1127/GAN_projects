@@ -19,15 +19,15 @@ This project demonstrates the implementation and training of a **Generative Adve
 ## Installation
 
 1. Clone the repository:
-   \`\`\`bash
+   ```
    git clone https://github.com/<your-username>/<repository-name>.git
    cd <repository-name>
-   \`\`\`
+   ```
 
 2. Install dependencies:
-   \`\`\`bash
+   ```
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 ---
 
@@ -35,23 +35,23 @@ This project demonstrates the implementation and training of a **Generative Adve
 
 ### Training the GAN
 1. Run the training script:
-   \`\`\`bash
+   ```
    python train_gan.py
-   \`\`\`
+   ```
    Replace \`train_gan.py\` with the name of your training script.
 
 2. Generated images will be saved periodically in the \`image_gen\` directory.
 
 ### View Generated Images
    Generated images are saved in \`.png\` format:
-   \`\`\`
+   ```
    image_gen/epoch_<epoch_number>.png
-   \`\`\`
+   ```
 
 ---
 
 ## File Structure
-\`\`\`
+```
 project/
 │
 ├── train_gan.py         # Main script for training the GAN
@@ -59,7 +59,7 @@ project/
 ├── README.md            # Project documentation
 ├── image_gen/           # Directory for generated images
 └── models/              # Directory for saved model checkpoints
-\`\`\`
+```
 
 ---
 

@@ -1,6 +1,6 @@
-# GAN Training with TensorFlow and Keras
+# GAN Training with Pytorch
 
-This project demonstrates the implementation and training of a **Generative Adversarial Network (GAN)** using TensorFlow and Keras. The project includes:
+This project demonstrates the implementation and training of a **Generative Adversarial Network (GAN)** using Pytorch. The project includes:
 
 - A **Generator** model that creates images from random noise.
 - A **Discriminator** model that distinguishes real images from generated ones.
